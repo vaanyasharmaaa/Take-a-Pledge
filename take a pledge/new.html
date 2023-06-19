@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Pledge</title>
+    <link rel="stylesheet" href="new.css">
+  </head>
+  <body>
+    <h1>Take a New Pledge here</h1>
+    <div class="new__form-container">
+      <form action="#" class="new__form">
+        <div class="new__form-field">
+          <label class="new__form-label" for="name">Name</label> <br>
+          <input
+            required
+            placeholder="Enter Your Name"
+            type="text"
+            class="new__form-input"
+            name="name"
+            id="name"
+          />
+        </div>
+        <div class="new__form-field">
+          <label class="new__form-label" for="email">Email</label> <br>
+          <input
+            required
+            placeholder="Enter Your Email"
+            type="text"
+            class="new__form-input"
+            name="email"
+            id="email"
+          />
+        </div>
+        <div class="new__form-field">
+          <label class="new__form-label" for="pledge">New Pledge</label> <br>
+          <textarea
+            required
+            cols="50"
+            rows="2"
+            class="new__form-input"
+            placeholder="Enter Your Pledge"
+            name="message"
+            id="message"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn" onclick="location.href='submit.html'">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
