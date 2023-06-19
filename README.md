@@ -9,3 +9,7 @@ Each and every voice matters. Take a Pledge and join us in raising awareness and
 * You can as well add a new pledge
 
 ### It is a step to make society more inclusive 
+
+## Project Status
+This project is completed
+
